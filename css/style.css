@@ -53,3 +53,13 @@ body{
   transform: scale(1.5);
   color: rgb(90, 0, 187);
 }
+
+.info_box{
+  width: 540px;
+  background: #fff;
+  border-radius: 5px;
+  transform: translate(-50%, -50%) scale(0.9);
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.3s ease;
+}
